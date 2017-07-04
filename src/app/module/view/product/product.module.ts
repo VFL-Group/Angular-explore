@@ -1,6 +1,5 @@
 import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
-import { MaterialModule } from '@angular/material';
 
 import {ProductComponent} from './product.component';
 
@@ -16,8 +15,7 @@ const route: Routes = [
     ProductComponent
   ],
   imports: [
-    RouterModule.forChild(route),
-    MaterialModule
+    RouterModule.forChild(route)
   ]
 })
 

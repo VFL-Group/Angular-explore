@@ -21,5 +21,4 @@ import {NavBarComponent} from './view/nav/navbar/navbar.component';
   ]
 })
 
-export class CmsModule {
-}
+export class CmsModule {}
