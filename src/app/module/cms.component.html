@@ -14,7 +14,7 @@
       <md-sidenav #sidenav mode="side" opened="true">
         <nav>
           <h3 class="slide-title" style="text-align: center">导航栏</h3>
-          <ul>
+          <ul style="padding: 0px;">
             <li class="slide-li" *ngFor="let nav of navs">
               <a routerLink="{{nav.url}}" routerLinkActive="active">
                 {{nav.name}}

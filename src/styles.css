@@ -1,4 +1,5 @@
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import url('./assets/css/mdl/material.min.css');
 
 @font-face {
   font-family: 'Material Icons';

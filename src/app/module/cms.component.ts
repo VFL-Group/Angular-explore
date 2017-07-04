@@ -16,7 +16,8 @@ export class CmsComponent implements OnInit {
     this.navs = [
       {name: 'home', url: 'home'},
       {name: 'product', url: 'product'},
-      {name: 'form', url: 'form'}
+      {name: 'form', url: 'form'},
+      {name: 'category', url: 'category'}
     ];
   }
 

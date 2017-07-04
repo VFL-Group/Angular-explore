@@ -10,7 +10,8 @@ const CmsRoutes: Routes = [
     {path: '', redirectTo: 'home'},
     {path: 'home', component: HomeComponent},
     {path: 'product', loadChildren: './view/product/product.module#ProductModule'},
-    {path: 'form', loadChildren: './view/form/form.module#FormModule'}
+    {path: 'form', loadChildren: './view/form/form.module#FormModule'},
+    {path: 'category', loadChildren: './view/category/category.module#CategoryModule'}
     ]
   }
 ];
