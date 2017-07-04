@@ -1,0 +1,74 @@
+.material {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.material > .app-component-sidenav {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.mat-sidenav-container {
+  width: 100%;
+  position: relative;
+  transform: translate3d(0, 0, 0);
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  display: block;
+  overflow: hidden
+}
+
+.app-component-sidenav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.app-component-sidenav md-sidenav {
+  width: 200px;
+}
+
+.docs-component-sidenav-content {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.slide-title {
+  border: none;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0;
+  padding: 0 16px;
+  background: rgba(0, 0, 0, .32);
+  color: hsla(0, 0%, 100%, .87);
+}
+
+.slide-li {
+  list-style: none;
+  padding: 13px;
+  font-size: 16px;
+}
+
+.example-fill-remaining-space {
+  flex: 1 1 auto;
+}

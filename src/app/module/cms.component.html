@@ -1,0 +1,40 @@
+<div class="material">
+  <!--header-->
+  <md-toolbar color="primary">
+    <span>Application Title</span>
+
+    <!-- This fills the remaining space of the current row -->
+    <span class="example-fill-remaining-space"></span>
+
+    <span>Right Aligned Text</span>
+  </md-toolbar>
+
+  <div class="app-component-sidenav">
+    <md-sidenav-container class="mat-sidenav-container">
+      <md-sidenav #sidenav mode="side" opened="true">
+        <nav>
+          <h3 class="slide-title" style="text-align: center">导航栏</h3>
+          <ul>
+            <li class="slide-li" *ngFor="let nav of navs">
+              <a routerLink="{{nav.url}}" routerLinkActive="active">
+                {{nav.name}}
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+      </md-sidenav>
+
+      <div tabindex="-1" class="cdk-visually-hidden cdk-focus-trap-anchor"></div>
+
+      <!-- primary content -->
+      <div cdk-scrollable class="mat-sidenav-content" style="margin-right: 0px; transform: translate3d(0px, 0px, 0px);">
+        <div class="docs-component-sidenav-content">
+          <router-outlet></router-outlet>
+        </div>
+
+      </div>
+    </md-sidenav-container>
+  </div>
+
+</div>

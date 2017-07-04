@@ -1,0 +1,11 @@
+<div class="container-fluid">
+  <div class="row">
+    <md-list>
+      <md-list-item *ngFor="let project of projects">
+
+        <a routerLink="/cms" routerLinkActive="active">{{project.name}}</a>
+
+      </md-list-item>
+    </md-list>
+  </div>
+</div>
