@@ -7,7 +7,7 @@ import {CategoryComponent} from './category.component';
 
 const route: Routes = [
   {
-    path: 'category', component: CategoryComponent
+    path: '', component: CategoryComponent
   }
 ];
 

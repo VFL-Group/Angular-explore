@@ -1,5 +1,5 @@
 # angular-explore
-study for angular
+> 此项目为基于angular-cli脚手架生成  包含模块的懒加载   css框架基于angular material
 
 # 参考地址
 
