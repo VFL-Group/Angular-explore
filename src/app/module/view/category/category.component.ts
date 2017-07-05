@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import data from './category.json';
 
 @Component({
   selector: 'app-category',
@@ -11,6 +12,7 @@ export class CategoryComponent implements OnInit {
   }
 
   ngOnInit() {
+    console.log('data',data);
   }
 
 }
